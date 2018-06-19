@@ -1,0 +1,369 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		13798FDE20C7109B00310CCC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13798FDD20C7109B00310CCC /* AppDelegate.swift */; };
+		13798FE020C7109B00310CCC /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13798FDF20C7109B00310CCC /* ViewController.swift */; };
+		13798FE320C7109B00310CCC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 13798FE120C7109B00310CCC /* Main.storyboard */; };
+		13798FE520C7109B00310CCC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13798FE420C7109B00310CCC /* Assets.xcassets */; };
+		13798FE820C7109B00310CCC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 13798FE620C7109B00310CCC /* LaunchScreen.storyboard */; };
+		13798FF020C713FD00310CCC /* PlistManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13798FEF20C713FD00310CCC /* PlistManager.swift */; };
+		13798FF220C714FE00310CCC /* Categoria.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13798FF120C714FE00310CCC /* Categoria.swift */; };
+		13798FF420C7156300310CCC /* Libro.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13798FF320C7156300310CCC /* Libro.swift */; };
+		13798FF620C718D800310CCC /* CreadorCategorias.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13798FF520C718D800310CCC /* CreadorCategorias.swift */; };
+		13798FF820C7193300310CCC /* libros.plist in Resources */ = {isa = PBXBuildFile; fileRef = 13798FF720C7193300310CCC /* libros.plist */; };
+		13798FFA20C71A8E00310CCC /* CreadorLibros.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13798FF920C71A8E00310CCC /* CreadorLibros.swift */; };
+		13798FFC20C7219E00310CCC /* WelcomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13798FFB20C7219E00310CCC /* WelcomeViewController.swift */; };
+		13798FFE20C721D500310CCC /* BooksTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13798FFD20C721D500310CCC /* BooksTableViewController.swift */; };
+		1379900020C721ED00310CCC /* BookTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13798FFF20C721ED00310CCC /* BookTableViewCell.swift */; };
+		13C7909320D99AE20084F61F /* BookDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13C7909220D99AE20084F61F /* BookDetailViewController.swift */; };
+		13C7909520D9AAE70084F61F /* BookAddViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13C7909420D9AAE70084F61F /* BookAddViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		13798FDA20C7109B00310CCC /* Entregable2ReyBruno.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Entregable2ReyBruno.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		13798FDD20C7109B00310CCC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		13798FDF20C7109B00310CCC /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		13798FE220C7109B00310CCC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		13798FE420C7109B00310CCC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		13798FE720C7109B00310CCC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		13798FE920C7109B00310CCC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		13798FEF20C713FD00310CCC /* PlistManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlistManager.swift; sourceTree = "<group>"; };
+		13798FF120C714FE00310CCC /* Categoria.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Categoria.swift; sourceTree = "<group>"; };
+		13798FF320C7156300310CCC /* Libro.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Libro.swift; sourceTree = "<group>"; };
+		13798FF520C718D800310CCC /* CreadorCategorias.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreadorCategorias.swift; sourceTree = "<group>"; };
+		13798FF720C7193300310CCC /* libros.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = libros.plist; sourceTree = "<group>"; };
+		13798FF920C71A8E00310CCC /* CreadorLibros.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreadorLibros.swift; sourceTree = "<group>"; };
+		13798FFB20C7219E00310CCC /* WelcomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeViewController.swift; sourceTree = "<group>"; };
+		13798FFD20C721D500310CCC /* BooksTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BooksTableViewController.swift; sourceTree = "<group>"; };
+		13798FFF20C721ED00310CCC /* BookTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookTableViewCell.swift; sourceTree = "<group>"; };
+		13C7909220D99AE20084F61F /* BookDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookDetailViewController.swift; sourceTree = "<group>"; };
+		13C7909420D9AAE70084F61F /* BookAddViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookAddViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		13798FD720C7109B00310CCC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		13798FD120C7109B00310CCC = {
+			isa = PBXGroup;
+			children = (
+				13798FDC20C7109B00310CCC /* Entregable2ReyBruno */,
+				13798FDB20C7109B00310CCC /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		13798FDB20C7109B00310CCC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				13798FDA20C7109B00310CCC /* Entregable2ReyBruno.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		13798FDC20C7109B00310CCC /* Entregable2ReyBruno */ = {
+			isa = PBXGroup;
+			children = (
+				13798FDD20C7109B00310CCC /* AppDelegate.swift */,
+				13798FDF20C7109B00310CCC /* ViewController.swift */,
+				13798FE120C7109B00310CCC /* Main.storyboard */,
+				13798FEF20C713FD00310CCC /* PlistManager.swift */,
+				13798FE420C7109B00310CCC /* Assets.xcassets */,
+				13798FE620C7109B00310CCC /* LaunchScreen.storyboard */,
+				13798FE920C7109B00310CCC /* Info.plist */,
+				13798FF720C7193300310CCC /* libros.plist */,
+				13798FF120C714FE00310CCC /* Categoria.swift */,
+				13798FF320C7156300310CCC /* Libro.swift */,
+				13798FF520C718D800310CCC /* CreadorCategorias.swift */,
+				13798FF920C71A8E00310CCC /* CreadorLibros.swift */,
+				13798FFB20C7219E00310CCC /* WelcomeViewController.swift */,
+				13798FFD20C721D500310CCC /* BooksTableViewController.swift */,
+				13798FFF20C721ED00310CCC /* BookTableViewCell.swift */,
+				13C7909220D99AE20084F61F /* BookDetailViewController.swift */,
+				13C7909420D9AAE70084F61F /* BookAddViewController.swift */,
+			);
+			path = Entregable2ReyBruno;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		13798FD920C7109B00310CCC /* Entregable2ReyBruno */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 13798FEC20C7109B00310CCC /* Build configuration list for PBXNativeTarget "Entregable2ReyBruno" */;
+			buildPhases = (
+				13798FD620C7109B00310CCC /* Sources */,
+				13798FD720C7109B00310CCC /* Frameworks */,
+				13798FD820C7109B00310CCC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Entregable2ReyBruno;
+			productName = Entregable2ReyBruno;
+			productReference = 13798FDA20C7109B00310CCC /* Entregable2ReyBruno.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		13798FD220C7109B00310CCC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0920;
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = Juan;
+				TargetAttributes = {
+					13798FD920C7109B00310CCC = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 13798FD520C7109B00310CCC /* Build configuration list for PBXProject "Entregable2ReyBruno" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 13798FD120C7109B00310CCC;
+			productRefGroup = 13798FDB20C7109B00310CCC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				13798FD920C7109B00310CCC /* Entregable2ReyBruno */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		13798FD820C7109B00310CCC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				13798FE820C7109B00310CCC /* LaunchScreen.storyboard in Resources */,
+				13798FF820C7193300310CCC /* libros.plist in Resources */,
+				13798FE520C7109B00310CCC /* Assets.xcassets in Resources */,
+				13798FE320C7109B00310CCC /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		13798FD620C7109B00310CCC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				13798FF020C713FD00310CCC /* PlistManager.swift in Sources */,
+				13C7909520D9AAE70084F61F /* BookAddViewController.swift in Sources */,
+				13798FFC20C7219E00310CCC /* WelcomeViewController.swift in Sources */,
+				13798FFA20C71A8E00310CCC /* CreadorLibros.swift in Sources */,
+				13798FF220C714FE00310CCC /* Categoria.swift in Sources */,
+				13C7909320D99AE20084F61F /* BookDetailViewController.swift in Sources */,
+				13798FE020C7109B00310CCC /* ViewController.swift in Sources */,
+				13798FFE20C721D500310CCC /* BooksTableViewController.swift in Sources */,
+				13798FF420C7156300310CCC /* Libro.swift in Sources */,
+				13798FF620C718D800310CCC /* CreadorCategorias.swift in Sources */,
+				1379900020C721ED00310CCC /* BookTableViewCell.swift in Sources */,
+				13798FDE20C7109B00310CCC /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		13798FE120C7109B00310CCC /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				13798FE220C7109B00310CCC /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		13798FE620C7109B00310CCC /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				13798FE720C7109B00310CCC /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		13798FEA20C7109B00310CCC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		13798FEB20C7109B00310CCC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		13798FED20C7109B00310CCC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = Entregable2ReyBruno/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.digitalhouse.Entregable2ReyBruno;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		13798FEE20C7109B00310CCC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = Entregable2ReyBruno/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.digitalhouse.Entregable2ReyBruno;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		13798FD520C7109B00310CCC /* Build configuration list for PBXProject "Entregable2ReyBruno" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				13798FEA20C7109B00310CCC /* Debug */,
+				13798FEB20C7109B00310CCC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		13798FEC20C7109B00310CCC /* Build configuration list for PBXNativeTarget "Entregable2ReyBruno" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				13798FED20C7109B00310CCC /* Debug */,
+				13798FEE20C7109B00310CCC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 13798FD220C7109B00310CCC /* Project object */;
+}
