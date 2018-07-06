@@ -1,0 +1,6 @@
+framework module Pods_Unsplash_entregable {
+  umbrella header "Pods-Unsplash entregable-umbrella.h"
+
+  export *
+  module * { export * }
+}
