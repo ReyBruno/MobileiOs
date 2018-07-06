@@ -195,7 +195,7 @@
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="GFF-cL-mkx">
                                 <rect key="frame" x="0.0" y="134" width="375" height="267"/>
                             </imageView>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="zZX-ZH-Rwa">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="zZX-ZH-Rwa">
                                 <rect key="frame" x="0.0" y="411" width="375" height="246"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <color key="textColor" red="0.99999600649999998" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -223,6 +223,13 @@
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="B0a-50-pPn"/>
                     </view>
+                    <connections>
+                        <outlet property="avatarImage" destination="WFK-Rt-P4Y" id="Oum-dh-Ezx"/>
+                        <outlet property="bioLabel" destination="zZX-ZH-Rwa" id="CV9-b6-QOZ"/>
+                        <outlet property="mainImageView" destination="GFF-cL-mkx" id="kh2-65-TIm"/>
+                        <outlet property="ubicacionLabel" destination="MTk-Mv-DD1" id="H4m-dj-nKH"/>
+                        <outlet property="usernameLabel" destination="SGS-t9-Fd6" id="y5v-01-h2z"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Jx7-uW-37v" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>

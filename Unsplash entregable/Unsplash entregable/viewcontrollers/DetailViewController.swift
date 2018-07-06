@@ -7,11 +7,29 @@
 //
 
 import UIKit
+import Kingfisher
 
 class DetailViewController: UIViewController {
+    
+    @IBOutlet weak var avatarImage: UIImageView!
+    
+    var resultadoDetallar:Resultado?
 
+    @IBOutlet weak var usernameLabel: UILabel!
+    @IBOutlet weak var ubicacionLabel: UILabel!
+    
+    @IBOutlet weak var mainImageView: UIImageView!
+    
+    @IBOutlet weak var bioLabel: UILabel!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
+        
+        if let resultadoV = self.resultadoDetallar{
+            setup(resultado: resultadoV)
+        }
+        
+
 
         // Do any additional setup after loading the view.
     }
@@ -19,6 +37,27 @@ class DetailViewController: UIViewController {
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
+    }
+    
+    func setup(resultado:Resultado){
+        usernameLabel.text = resultado.name ?? "no-name"
+        ubicacionLabel.text = resultado.location ?? "no-ubication"
+        bioLabel.text = resultado.bio ?? "This user doesn`t have a biography."
+        
+        
+        let urlS = resultado.regular
+        if let urlV = urlS{
+            let url = URL(string:urlV)
+            mainImageView?.kf.setImage(with: url)
+            
+        }
+        
+        let urlSA = resultado.medium
+        if let urlV = urlSA{
+            let url = URL(string: urlV)
+            self.avatarImage.kf.setImage(with: url)
+        }
+        
     }
     
 

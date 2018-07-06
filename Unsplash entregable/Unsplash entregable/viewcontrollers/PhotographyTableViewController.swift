@@ -60,6 +60,17 @@ class PhotographyTableViewController: UITableViewController {
         return cell
     }
     
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?){
+        if let destination = segue.destination as? DetailViewController{
+            if let index = tableView.indexPathForSelectedRow{
+                let resultado = self.resultados[index.row]
+                destination.resultadoDetallar = resultado
+                
+                
+            }
+        }
+    }
+    
 
     /*
     // Override to support conditional editing of the table view.
